@@ -1,4 +1,4 @@
-# JS_Memory-Game
+# Halloween Memory Game
 
 ## Description
 Welcome to the Halloween Memory Game! This is a classic memory game with a spooky twist to celebrate Halloween. Test your memory as you match pairs of eerie emojis like pumpkins, ghosts, and vampires. This game is a fun way to get into the Halloween spirit while challenging your brain.
