@@ -3,16 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Memory Game</title>
 
     <link rel="stylesheet" href=".//src/styles/main.css">
     <link rel="stylesheet" href=".//src/styles/reset.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cinzel&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nosifer&family=Pixelify+Sans&family=Press+Start+2P&display=swap" rel="stylesheet">
+
 </head>
 <body>
     <div class="container">
         <h2>MEMORY GAME</h2>
         <div class="game"></div>
         <button class="reset" onclick="window.location.reload()">RESET GAME</button>
+        
+        <!-- Modal de Alerta Personalizado -->
+        <div class="modal" id="customAlert" style="display: none;">
+            <div class="modal-content">
+                <h2>Você venceu!</h2>
+                <button id="closeModal">Fechar</button>
+            </div>
+        </div>
+        <!-- Fim do Modal de Alerta Personalizado -->
     </div>
     
     <script src=".//src/scripts/engine.js" defer></script>
